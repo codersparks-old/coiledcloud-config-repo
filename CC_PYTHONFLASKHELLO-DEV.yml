@@ -4,3 +4,8 @@ server:
 sidecar:
   port: 5000
   health-uri: http://localhost:5000/info
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
